@@ -19,6 +19,7 @@ interface SlickSlider extends SliderSettings {
     ref: any;
     nextArrow?: React.ReactElement | null;
     prevArrow?: React.ReactElement | null;
+    responsive: any;
 }
 
 export default function Carusel() {
@@ -43,24 +44,32 @@ export default function Carusel() {
             </button>
         ),
         ref: sliderRef,
+        responsive: [
+            {
+                breakpoint: 1280, // Если ширина экрана меньше 1280px
+                settings: {
+                    slidesToShow: 1, // Показываем только 1 отзыв
+                }
+            }
+        ]
     };
 
 
     return (
-        <div className="mt-[65px] mb-[30px]">
-            <div className="">
+        <div className="mt-[65px] mb-[30px] flex justify-center items-center w-screen">
+            <div className="relative xl:max-w-[1050px] md:max-w-[700px] sm:max-w-[600px] xs:max-w-[300px] w-full m-auto">
                 <div>
-                    <p className="ml-[391px] text-header-ul font-cormorant text-[55px] font-normal">Отзывы:</p>
+                    <p className="text-header-ul font-cormorant sm:text-[55px] xs:text-[30px] font-normal">Отзывы:</p>
                 </div>
-                <div>
-                    <div className="relative w-[1050px] m-auto">
+                <div className="m-auto">
+                    <div className="relative m-auto">
                         <Image src="/arrowCL.svg" alt='-' width={30} height={30}
-                               className="absolute top-[50%] left-[-50px] cursor-pointer"
+                               className="absolute top-[50%] left-[-30px] cursor-pointer"
                                onClick={() => sliderRef.current?.slickPrev()}/>
                         <Image src="/arrowCR.svg" alt='-' width={30} height={30}
                                className="absolute top-[50%] right-[-30px] cursor-pointer"
                                onClick={() => sliderRef.current?.slickNext()}/>
-                        <Slider {...settings}>
+                        <Slider {...settings}  className="max-w-[1050px] w-full">
                             {
                                 data
                                     .filter(item => item.status !== "Благодарственное письмо")
@@ -68,23 +77,23 @@ export default function Carusel() {
                                     return (
                                         <>
                                             <div key={index}
-                                                 className="relative w-[500px] h-[425px] bg-memory-card rounded-[20px] pt-[21px] pl-[43px]">
+                                                 className="relative w-auto sm:max-w-[500px] xs:max-w-[300px] h-[425px] m-auto bg-memory-card rounded-[20px] sm:pt-[21px] xs:pt-[20px] sm:pl-[43px] xs:pl-[23px]">
                                                 <div
-                                                    className={`${item.status === "Память" ? "pl-[25px] pt-[4px] pr-[29px] pb-[7px]" : "pl-[5px] pt-[2px] pr-[6px] pb-[11px]"} absolute top-0 right-0 max-w-[180px] h-auto bg-memory-black text-cart-title font-cormorant text-[30px] font-normal rounded-tr-[20px] rounded-bl-[20px]`}>{item.status}</div>
+                                                    className={`${item.status === "Память" ? "sm:pl-[25px] xs:pl-[20px] xs:pt-[4px] sm:pr-[29px] xs:pr-[19px] xs:pb-[7px]" : "sm:pl-[5px] xs:pl-[2px] xs:pt-[2px] sm:pr-[6px] xs:pr-[2px] sm:pb-[11px] xs:pb-[5px] xs:max-w-[110px] sm:max-w-[170px]"} absolute top-0 right-0 max-w-[180px] h-auto bg-memory-black text-cart-title font-cormorant sm:text-[30px] xs:text-[20px] font-normal rounded-tr-[20px] rounded-bl-[20px]`}>{item.status}</div>
                                                 <div>
                                                     <p className="text-header-ul font-cormorant font-normal text-[16px]">{item.data}</p>
                                                     <p className="text-dark-text font-thin text-[20px] font-raleway">{item.name}</p>
                                                 </div>
                                                 <div
-                                                    className="mt-[73px] text-dark-text max-w-[419px] font-raleway text-[20px]">{item.coment}</div>
+                                                    className="sm:mt-[73px] xs:mt-[50px] text-dark-text max-w-[419px] font-raleway text-[20px]">{item.coment}</div>
                                                 <div className="">
                                                     <Link href="/reviews">
                                                         <div
-                                                            className="relative w-[318px] h-[44px] rounded-[25px] bg-memory-black hover:bg-hover-phone transition-colors duration-300 flex items-center justify-center mt-[45px] cursor-pointer">
-                                                            <p className="text-text-white text-[20px] font-thin">Читать
+                                                            className="relative sm:w-[318px] sm:h-[44px] xs:w-[200px] xs:h-[25px] rounded-[25px] bg-memory-black hover:bg-hover-phone transition-colors duration-300 flex items-center justify-center sm:mt-[45px] xs:mt-[20px] cursor-pointer">
+                                                            <p className="text-text-white sm:text-[20px] xs:text-[15px] font-thin">Читать
                                                                 отзыв полностью</p>
                                                             <Image src="/arrowWhite.svg" alt="-" width={9} height={9}
-                                                                   className="absolute top-[19px] right-[18px]"/>
+                                                                   className="absolute sm:top-[19px] sm:right-[18px] xs:top-[9px] xs:right-[6px]"/>
                                                         </div>
                                                     </Link>
                                                 </div>

@@ -3,7 +3,6 @@ import Image from "next/image";
 import './glav.css'
 import Link from "next/link";
 
-
 export default function Home() {
 
     return (
@@ -51,7 +50,7 @@ export default function Home() {
                             Круглосуточный телефон
                         </p>
                         <p className="text-text-white font-raleway text-[20px] font-bold text-center">
-                            <a href="tel:+79001234567" >
+                            <a href="tel:+79120125085" rel="noopener noreferrer" >
                                 +7 (900) 123-45-67
                             </a>
                         </p>

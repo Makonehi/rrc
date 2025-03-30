@@ -20,6 +20,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-slick": "^0.30.3",
+    "react-tel-input": "^0.1.14",
     "slick-carousel": "^1.8.1",
     "tailwind-merge": "^3.0.2",
     "tw-animate-css": "^1.2.4",

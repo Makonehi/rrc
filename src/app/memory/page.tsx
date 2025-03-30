@@ -63,14 +63,14 @@ export default function Memory() {
                     </div>
                 </div>
             </div>
-            <div className="opis sm:h-[910px] xs:h-[650px] mt-[105px] w-screen flex justify-center items-center">
+            <div className="opis sm:h-[910px] xs:h-[690px] mt-[105px] w-screen flex justify-center items-center">
                 <div
-                    className='lg:w-[772px] lg:h-[880px] md:w-[672px] md:h-[880px] sm:w-[572px] sm:h-[780px] xs:w-[400px] xs:h-[600px] bg-text-white rounded-[20px] pl-[55px] md:pt-[30px] xs:pt-[10px]'>
+                    className='lg:w-[772px] lg:h-[880px] md:w-[672px] md:h-[880px] sm:w-[572px] sm:h-[780px] xs:w-[350px] xs:h-[670px] bg-text-white rounded-[20px] xs:pl-[30px] md:pt-[30px] xs:pt-[10px]'>
                     <p className="font-cormorant lg:text-[30px] sm:text-[25px] font-normal text-dark-text">Порядок
                         опеределения
                         формы
                         памятника:</p>
-                    <div className="lg:pl-[45px] md:pl-[35px]">
+                    <div className="lg:pl-[45px] md:pl-[35px] xs:pl-[20px]">
                         <div className="relative md:mt-[25px] sm:mt-[20px] xs:mt-[15px]">
                             <p className="absolute left-[-30px] top-[-5px] text-dark-text font-cormorant sm:text-[24px] xs:text-[17px] font-normal">1.</p>
                             <p className="text-zinc-950 font-thin sm:text-[20px] xs:text-[15px] font-raleway">Определение личных

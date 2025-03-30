@@ -1,17 +1,13 @@
 import React from 'react';
 import Link from "next/link";
-import Image from "next/image";
-import hallOne from "@/app/serviceMemory/hall/icon/hallOne.svg";
-import hallTwo from "@/app/serviceMemory/hall/icon/hallTwo.svg";
-import hallThree from "@/app/serviceMemory/hall/icon/hallThree.svg";
 import DownHeader from "@/app/downHeader/page";
 
 export default function CargoTwo() {
     return (
         <div className="overflow-x-hidden">
             <div className="bg-cover bg-no-repeat overflow-hidden pt-10"
-                 style={{backgroundImage: 'url("/fonCenter.svg")', minHeight: "calc(100vh - 171px)"}}>
-                <div className="w-[1300px] mx-auto px-7">
+                 style={{backgroundImage: 'url("/fonCenter.svg")', minHeight: "calc(100vh)"}}>
+                <div className="max-w-[1300px] mx-auto px-7">
                     <div>
                         <p className="text-header-ul font-cormorant text-[55px] font-normal">Груз 200</p>
                     </div>
