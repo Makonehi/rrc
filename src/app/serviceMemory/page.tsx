@@ -12,12 +12,12 @@ export default function ServiceMemory() {
     return (
         <div>
             <div className="min-w-screen bg-cover bg-no-repeat overflow-x-hidden flex justify-center items-center"
-                 style={{backgroundImage: 'url("/Service.svg")', minHeight: "calc(100vh)"}}>
+                 style={{backgroundImage: 'url("/Service.svg")', minHeight: "calc(100vh - 101px)"}}>
                 <div className="max-w-[1225px]">
                     <div>
                         <p className="text-header-ul font-cormorant text-[55px] font-normal">Память</p>
                     </div>
-                    <div className="xl:flex xl:flex-wrap xs:grid lg:grid-cols-3 xs:grid-cols-2 gap-[55px]">
+                    <div className="xl:flex xl:flex-wrap xs:grid lg:grid-cols-3 xs:grid-cols-2 gap-[55px] mt-[30px]">
                         <Link href="/serviceMemory/fences">
                             <div
                                 className="ss:w-[200px] md:w-[265px] ss:h-[135px] md:h-[200px] xs:w-[160px] xs:h-[100px]  border border-black rounded-[20px] xs:pt-[15px] ss:pt-[20px] md:pt-[35px]">

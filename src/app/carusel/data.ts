@@ -45,3 +45,4 @@ export const data: dataType[] = [
     },
 
 ]
+console.log('lox')

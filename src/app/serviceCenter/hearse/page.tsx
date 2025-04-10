@@ -15,12 +15,12 @@ export default function Hearse() {
             <div className="bg-cover bg-no-repeat overflow-hidden pt-10"
                  style={{ backgroundImage: 'url("/fonCenter.svg")', minHeight: "100vh" }}>
                 <div className="max-w-[1225px] w-full mx-auto px-7 mt-[70px]">
-                    <p className="text-header-ul font-cormorant xs:text-[40px] sm:text-[45px] md:text-[55px] font-normal">Катафалк</p>
+                    <p className="text-header-ul font-cormorant xl:text-[55px] lg:text-[48px] md:text-[42px] sm:text-[36px] ss:text-[30px] xs:text-[26px] font-normal">Катафалк</p>
 
-                    <p className="text-header-ul font-raleway xs:text-[25px] sm:text-[28px] md:text-[32px] font-thin mt-[55px]">
+                    <p className="text-header-ul font-raleway xl:text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[30px]">
                         У нас собственный транспорт-катафалк и для церемонии прощания с близким человеком это для нас важная и очень ответственная часть при организации похоронной процессии.
                     </p>
-                    <p className="text-header-ul font-raleway xs:text-[25px] sm:text-[28px] md:text-[32px] font-thin mt-[80px]">
+                    <p className="text-header-ul font-raleway xl:text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[50px]">
                         Мы готовы позаботиться о том, чтобы обеспечить все достойные и качественные прощания с близким человеком.
                         Для бронирования машины звоните по указанному номеру в <Link href="/contact">
                         <span className="hover:text-micro-text border-b border-dark-text hover:border-micro-text">контактах</span>

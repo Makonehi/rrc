@@ -12,7 +12,7 @@ export default function Memory() {
 
     return (
         <div className={`w-full bg-cover bg-no-repeat overflow-x-hidden`}
-             style={{backgroundImage: 'url("/fonMemory.svg")'}}>
+             style={{backgroundImage: 'url("/fonMemory.svg")', minHeight: "calc(100vh)"}}>
             <div className="flex justify-center w-screen h-[800px]">
                 <div
                     className="lg:flex w-full xs:grid xs:place-items-center xs:place-content-center lg:justify-center lg:items-center lg:gap-[83px] xs:gap-[35px] xs:mt-[140px]">
