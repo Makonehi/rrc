@@ -33,10 +33,10 @@ export default function Reviews() {
                                         <div className="px-[5px] py-[10px] absolute top-0 right-0 ss:max-w-[240px] xs:max-w-[200px] h-auto bg-memory-black text-cart-title font-cormorant ss:text-[30px] xs:text-[25px] font-normal rounded-tr-[20px] rounded-bl-[20px]">Благодарственное письмо</div>
                                         <Dialog>
                                             <DialogTrigger>
-                                                <Image src={item.img} alt="-" width={500} height={500}/>
+                                                <Image src={item.img as string} alt="-" width={500} height={500}/>
                                             </DialogTrigger>
                                             <DialogContent>
-                                                <Image src={item.img} alt="-" width={700} height={600}/>
+                                                <Image src={item.img as string} alt="-" width={700} height={600}/>
                                             </DialogContent>
                                         </Dialog>
                                     </div>
