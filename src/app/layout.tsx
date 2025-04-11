@@ -34,6 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
+    <head>
+        <meta name="google-site-verification" content="rrGmW9BQQmMPNXsSO0x-HcMduJ9l-8yOxHaxFaRgg-Q" />
+    </head>
       <body
         className={`${geistRaleway.variable} ${geistCormorant.variable} antialiased`}
       >
