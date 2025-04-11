@@ -40,7 +40,6 @@ export default function RootLayout({
       <body
         className={`${geistRaleway.variable} ${geistCormorant.variable} antialiased`}
       >
-      
       <SpeedInsights/>
       <SidebarProvider>
           <Router />
