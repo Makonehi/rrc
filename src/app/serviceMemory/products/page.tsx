@@ -148,19 +148,19 @@ export default function Products() {
         {product: 'statues', img: "/production/statues20.jpeg", name: "Статуи №20"},
 
 
-
     ];
 
     const filteredProducts = dataProduct.filter(item => item.product === activeTab);
 
     return (
-        <div className="overflow-x-hidden">
-            <div className="xs:bg-no-repeat ss:bg-repeat-y bg-[length:100%_auto] bg-top w-screen overflow-hidden py-10 px-4 sm:px-8 md:px-12"
-                 style={{backgroundImage: 'url("/Service.svg")', minHeight: ("100vh")}}>
+        <main className="overflow-x-hidden">
+            <div
+                className="xs:bg-no-repeat ss:bg-repeat-y bg-[length:100%_auto] bg-top w-screen overflow-hidden py-10 px-4 sm:px-8 md:px-12"
+                style={{backgroundImage: 'url("/Service.svg")', minHeight: ("100vh")}}>
                 <div className="max-w-[1230px] mx-auto">
-                    <p className="text-header-ul font-cormorant text-[32px] sm:text-[40px] md:text-[55px] mt-6 sm:mt-8">
+                    <h1 className="text-header-ul font-cormorant text-[32px] sm:text-[40px] md:text-[55px] mt-6 sm:mt-8">
                         Изделия из камня
-                    </p>
+                    </h1>
 
                     {/* Кнопки табов */}
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-5 mt-6">
@@ -168,7 +168,7 @@ export default function Products() {
                             <div key={tab}
                                  className={`w-full h-[45px] sm:h-[50px] rounded-lg cursor-pointer bg-gray-200 border border-gray-400 flex justify-center items-center ${activeTab === tab ? "bg-gray-500 text-white" : "hover:bg-gray-300"}`}
                                  onClick={() => setActiveTab(tab as ProductsType["product"])}>
-                                <p className="text-[16px] font-cormorant sm:text-[18px] md:text-[20px]">
+                                <h1 className="text-[16px] font-cormorant sm:text-[18px] md:text-[20px]">
                                     {
                                         tab === "lamps" ? "Лампады" :
                                             tab === "statues" ? "Статуи" :
@@ -177,7 +177,7 @@ export default function Products() {
                                                         tab === "slabs" ? "Столы - Скамейки" : "Статуи"
 
                                     }
-                                </p>
+                                </h1>
                             </div>
                         ))}
                     </div>
@@ -189,15 +189,18 @@ export default function Products() {
                                 <div
                                     className="w-full h-[180px] sm:h-[200px] border border-black rounded-lg flex items-center justify-center overflow-hidden">
                                     <Dialog>
-                                        <DialogTrigger
-                                            className="w-full h-[180px] sm:h-[200px] border border-black rounded-lg flex items-center justify-center">
-                                            <Image
-                                                src={item.img}
-                                                alt={item.name}
-                                                width={130}
-                                                height={130}
-                                                className="object-contain cursor-pointer"
-                                            />
+                                        <DialogTrigger asChild
+                                                       className="w-full h-[180px] sm:h-[200px] border border-black rounded-lg flex items-center justify-center">
+                                            <button>
+                                                <Image
+                                                    src={item.img}
+                                                    alt={item.name}
+                                                    width={130}
+                                                    height={130}
+                                                    className="object-contain cursor-pointer"
+                                                    placeholder="blur"
+                                                />
+                                            </button>
                                         </DialogTrigger>
                                         <DialogContent className="max-w-3xl p-0 flex justify-center items-center">
                                             <Image
@@ -206,6 +209,7 @@ export default function Products() {
                                                 width={600} // Указываешь, какой размер нужен для увеличенного фото
                                                 height={600}
                                                 className="object-contain"
+                                                placeholder="blur"
                                             />
                                         </DialogContent>
                                     </Dialog>
@@ -227,6 +231,6 @@ export default function Products() {
                 </div>
             </div>
             <DownHeader/>
-        </div>
+        </main>
     );
 }

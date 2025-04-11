@@ -19,11 +19,11 @@ const geistCormorant = Cormorant_Unicase({
 
 export const metadata: Metadata = {
   title: "Районый Ритуальный Центр | Память",
-  description: "Организация похорон, Ритуальный услуги, Памятники",
+  description: "Организация похорон. Ритуальный услуги. Памятники. Поселок Кез. Удмуртская республика",
     icons: {
       icon: '/vklad.jpeg'
     },
-    keywords: "Память, Районный ритуальный центр, Кез, Похорона"
+    keywords: "Память, Районный ритуальный центр, Кез, Похорона, Ритуальный центр Кез."
 };
 
 export default function RootLayout({
