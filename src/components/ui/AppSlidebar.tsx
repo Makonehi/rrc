@@ -17,8 +17,6 @@ export function AppSidebar({ isOpen, toggleSidebar }: { isOpen: boolean, toggleS
             onClick={toggleSidebar}
         >
             <Sidebar
-                open={isOpen}
-                onClose={toggleSidebar}
                 className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ${
                     isOpen ? "translate-x-0" : "translate-x-full"
                 }`}

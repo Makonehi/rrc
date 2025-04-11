@@ -20,7 +20,7 @@ export default function Home() {
                                 <div
                                     className="relative xs:w-[150px] xs:h-[30px] ss:w-[200px] ss:h-[38px] rounded-[25px] bg-bg-phone hover:bg-hover-phone transition-colors duration-300 flex items-center justify-center lg:mt-[83px] md:mt-[33px] ss:mt-[40px] xs:mt-[15px] cursor-pointer">
                                     <p className="text-header-ul">Подробнее</p>
-                                    <Image src="/arrow.svg" alt="-" width={9} height={9} placeholder="blur"
+                                    <Image src="/arrow.svg" alt="-" width={9} height={9}
                                            className="absolute ss:top-[15px] ss:right-[19px] xs:top-[11px] xs:right-[14px]"/>
                                 </div>
                             </Link>
@@ -37,7 +37,7 @@ export default function Home() {
                                 <div
                                     className="relative xs:w-[150px] xs:h-[30px] ss:w-[200px] ss:h-[38px] rounded-[25px] bg-bg-phone hover:bg-hover-phone transition-colors duration-300 flex items-center justify-center xl:mt-[45px] lg:mt-[60px] md:mt-[18px] ss:mt-[18px] xs:mt-[10px] cursor-pointer">
                                     <p className="text-header-ul">Подробнее</p>
-                                    <Image src="/arrow.svg" alt="-" width={9} height={9} placeholder="blur"
+                                    <Image src="/arrow.svg" alt="-" width={9} height={9}
                                            className="absolute ss:top-[15px] ss:right-[19px] xs:top-[11px] xs:right-[14px]"/>
                                 </div>
                             </Link>

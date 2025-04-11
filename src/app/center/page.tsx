@@ -16,7 +16,7 @@ export default function Center() {
                     className="lg:flex w-full xs:grid xs:place-items-center xs:place-content-center lg:justify-center lg:items-center lg:gap-[83px] xs:gap-[35px] xs:mt-[100px]">
                     <div
                         className="xl:w-[530px] xl:h-[570px] lg:w-[430px] lg:h-[470px] xs:w-[330px] xs:h-[360px] relative rounded-[20px] overflow-hidden">
-                        <Image src="/centrFoto.svg" alt="=" fill placeholder="blur" className="object-cover"/>
+                        <Image src="/centrFoto.svg" alt="=" fill className="object-cover"/>
                     </div>
                     <div
                         className="relative xs:order-2 xl:w-[530px] xl:h-[570px] lg:w-[430px] lg:h-[470px] xs:w-[330px] xs:h-[360px] bg-memory-card rounded-[20px] pl-[34px] lg:pt-[90px] xs:pt-[60px]">

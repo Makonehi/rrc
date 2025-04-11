@@ -59,7 +59,7 @@ export default function Memory() {
                     </div>
                     <div
                         className="xl:w-[530px] xl:h-[570px] lg:w-[430px] lg:h-[470px] xs:w-[330px] xs:h-[360px] relative rounded-[20px] overflow-hidden">
-                        <Image src={Crest} alt="-" fill placeholder="blur" className="object-center"/>
+                        <Image src={Crest} alt="-" fill className="object-center"/>
                     </div>
                 </div>
             </div>
