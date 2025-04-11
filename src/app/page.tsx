@@ -6,10 +6,10 @@ import Link from "next/link";
 export default function Home() {
 
     return (
-        <header className="home-page prew ss:flex ss:justify-center ss:items-center relative"
+        <main className="home-page prew ss:flex ss:justify-center ss:items-center relative"
              style={{minHeight: "calc(100vh)" }}
         >
-            <main className="xs:mx-auto xs:pt-[100px]">
+            <div className="xs:mx-auto xs:pt-[100px]">
                 <div className="md:flex xs:grid lg:gap-24 xs:gap-10">
                     <div className="xl:w-[550px] xl:h-[370px] lg:w-[450px] lg:h-[320px] ss:w-[350px] md:h-[220px] ss:h-[240px] xs:w-[300px] xs:h-[160] xs:rounded-[40px] ss:rounded-[60px]  bg-cart ss:px-[61px] ss:pt-[41px] xs:px-[40px] xs:pt-[20px]">
                         <h1 className="text-cart-title xl:text-[50px] lg:text-[40px] md:text-[30px] ss:text-[30px] xs:text-[30px] font-cormorant font-normal tracking-[0px] leading-[123%] text-center">Память</h1>
@@ -56,7 +56,7 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-            </main>
-        </header>
+            </div>
+        </main>
     );
 }
