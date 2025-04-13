@@ -1,0 +1,23 @@
+export const dataDiner = [
+    { img: "/icon/fence1.jpg", name: "Ограда №1" },
+    { img: "/icon/fence2.jpg", name: "Ограда №2" },
+    { img: "/icon/fence3.jpg", name: "Ограда №3" },
+    { img: "/icon/fence4.jpg", name: "Ограда №4" },
+    { img: "/icon/fence5.jpg", name: "Ограда №5" },
+    { img: "/icon/fence6.jpg", name: "Ограда №6" },
+    { img: "/icon/fence7.jpg", name: "Ограда №7" },
+    { img: "/icon/fence8.png", name: "Ограда №8" },
+    { img: "/icon/fence9.png", name: "Ограда №9" },
+    { img: "/icon/fence10.png", name: "Ограда №10" },
+    { img: "/icon/fence11.png", name: "Ограда №11" },
+    { img: "/icon/fence12.png", name: "Ограда №12" },
+    { img: "/icon/fence13.png", name: "Ограда №13" },
+    { img: "/icon/fence14.png", name: "Ограда №14" },
+    { img: "/icon/fence15.png", name: "Ограда №15" },
+    { img: "/icon/fence16.png", name: "Ограда №16" },
+    { img: "/icon/benchThee1.jpg", name: "Лавочки №1" },
+    { img: "/icon/benchTree2.jpeg", name: "Лавочки №2" },
+    { img: "/icon/benchTree3.jpg", name: "Лавочки №3" },
+    { img: "/icon/benchTree4.jpg", name: "Лавочки №4" },
+    { img: "/icon/tableTree.jpeg", name: "Стол №1" }
+];
