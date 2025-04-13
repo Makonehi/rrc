@@ -8,12 +8,12 @@ import {Dialog, DialogContent, DialogTrigger} from "@/components/ui/dialog";
 
 export default function AboutCompany() {
     return (
-        <div className="overflow-x-hidden">
+        <main className="overflow-x-hidden">
             <div className="bg-cover bg-no-repeat overflow-hidden pt-10"
                  style={{backgroundImage: 'url("/aboutFon.svg")', minHeight: "calc(100vh)"}}>
                 <div className="max-w-[1225px] mx-auto w-full px-10 mb-[30px] mt-[80px]">
                     <div>
-                        <p className="text-header-ul font-cormorant text-[55px] xs:text-[26px] sm:text-[36px] md:text-[42px] font-normal">О компании</p>
+                        <h1 className="text-header-ul font-cormorant text-[55px] xs:text-[26px] sm:text-[36px] md:text-[42px] font-normal">О компании</h1>
 
                         <p className="text-header-ul font-raleway text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[35px]">Наша компания
                             работает в посёлке Кез, а так же селе Дебессы (Республика Удмуртия) и предлагает широкий
@@ -36,7 +36,7 @@ export default function AboutCompany() {
                             которые указанны на сайте.</p>
                     </div>
                     <div>
-                        <p className="text-header-ul font-cormorant text-[55px] xs:text-[26px] sm:text-[36px] md:text-[42px] mt-[55px] font-normal">Сотрудничество</p>
+                        <h1 className="text-header-ul font-cormorant text-[55px] xs:text-[26px] sm:text-[36px] md:text-[42px] mt-[55px] font-normal">Сотрудничество</h1>
                         <p className="text-header-ul font-raleway text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[55px]">Наша компания всегда
                             стремится к долгосрочному и взаимовыгодному сотрудничеству с надежными и профессиональными
                             партнерами. Мы ценим ваш вклад в совместный успех и уверены, что только благодаря тесному
@@ -85,7 +85,7 @@ export default function AboutCompany() {
                 </div>
             </div>
             <DownHeader/>
-        </div>
+        </main>
     )
         ;
 }
