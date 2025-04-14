@@ -11,7 +11,8 @@ import {useState} from "react";
 export default function Memory() {
 
     return (
-        <div className={`w-full bg-cover bg-no-repeat overflow-x-hidden`}
+        <main
+            className={`w-full bg-cover bg-no-repeat overflow-x-hidden`}
              style={{backgroundImage: 'url("/fonMemory.svg")', minHeight: "calc(100vh)"}}>
             <div className="flex justify-center w-screen h-[800px]">
                 <div
@@ -21,10 +22,7 @@ export default function Memory() {
                         <div
                             className="text-cart-title xl:text-[32px] xs:text-[29px] font-cormorant font-thin xl:pl-[25px] xl:pt-[4px] xl:pr-[29px] xs:pb-[7px] xs:pl-[20px] xs:pr-[24px] bg-memory-black absolute top-0 right-0 rounded-bl-[20px] rounded-tr-[20px]">Память
                         </div>
-                        <p className="text-text-memory font-cormorant xl:text-[30px] lg:text-[25px] xs:text-[20px]  font-normal">Организация
-                            похорон в
-                            п.Кез
-                            (с.Дебесы)</p>
+                        <p className="text-text-memory font-cormorant xl:text-[30px] lg:text-[25px] xs:text-[20px]  font-normal">Изготовление памятников в п.Кез (с.Дебесы)</p>
                         <div className="xl:mt-[32px] xs:mt-[10px] pl-[20px]">
                             <Link href="/serviceMemory">
                                 <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs::mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">ограды</p>
@@ -121,7 +119,7 @@ export default function Memory() {
             </div>
             <Carusel/>
             <DownHeader/>
-        </div>
+        </main>
     );
 }
 

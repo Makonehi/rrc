@@ -9,6 +9,9 @@ export default function Home() {
     return (
         <>
         <Head>
+            <title>Главная. Организация похорон и Изготовление Памятников</title>
+            <meta name="description" content="Ритуальные услуги в поселке Кез, Удмуртская Республика. Организация похорон, изготовление памятников. Надежность, забота и уважение к памяти."/>
+            <link rel="canonical" href="https://ritualkez.ru/"/>
             <meta name="google-site-verification" content="rrGmW9BQQmMPNXsSO0x-HcMduJ9l-8yOxHaxFaRgg-Q" />
         </Head>
             <main className="home-page prew ss:flex ss:justify-center ss:items-center relative"

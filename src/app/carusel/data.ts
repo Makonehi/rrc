@@ -37,7 +37,52 @@ export const data: dataType[] = [
     },
     {
         status: "Благодарственное письмо",
-        img: "",
+        img: "/letter/1.png",
     },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/2.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/3.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/4.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/5.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/6.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/7.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/8.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/9.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/10.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/11.png",
+    },
+    {
+        status: "Благодарственное письмо",
+        img: "/letter/12.png",
+    },
+
 
 ]
