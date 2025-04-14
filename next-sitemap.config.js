@@ -2,7 +2,7 @@
 module.exports = {
     siteUrl: 'https://ritualkez.ru',
     generateRobotsTxt: true,
-    generateIndexSitemap: false,
+    generateIndexSitemap: true,
     robotsTxtOptions: {
         policies: [
             {
