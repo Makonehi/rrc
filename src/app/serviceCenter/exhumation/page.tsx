@@ -13,7 +13,7 @@ export default function Exhumation() {
                  style={{backgroundImage: 'url("/fonCenter.svg")', minHeight: "calc(100vh)"}}>
                 <div className="max-w-[1225px] mx-auto px-8 mt-[80px]">
                     <div>
-                        <p className="text-header-ul font-cormorant xl:text-[55px] lg:text-[48px] md:text-[42px] sm:text-[36px] ss:text-[30px] xs:text-[26px] font-normal">Прощальный зал</p>
+                        <p className="text-header-ul font-cormorant xl:text-[55px] lg:text-[48px] md:text-[42px] sm:text-[36px] ss:text-[30px] xs:text-[26px] font-normal">Эксгумация</p>
                     </div>
                     <div className="mb-[30px]">
                         <p className="text-header-ul font-raleway xl:text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[35px]">По законодательству РФ эксгумация возможна в двух случаях:</p>

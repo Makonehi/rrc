@@ -6,8 +6,8 @@ export default function Dig() {
     return (
         <div className="overflow-x-hidden">
             <div className="bg-cover bg-no-repeat overflow-hidden pt-10"
-                 style={{backgroundImage: 'url("fonCenter.svg")', minHeight: "calc(100vh - 171px)"}}>
-                <div className="w-[1225px] mx-auto px-7">
+                 style={{backgroundImage: 'url("fonCenter.svg")', minHeight: "calc(100vh - 101px)"}}>
+                <div className="max-w-[1225px] mx-auto px-7 mt-[80px]">
                     <div>
                         <p className="text-header-ul font-cormorant xl:text-[55px] lg:text-[48px] md:text-[42px] sm:text-[36px] ss:text-[30px] xs:text-[26px] font-normal">Копка могил</p>
                     </div>
