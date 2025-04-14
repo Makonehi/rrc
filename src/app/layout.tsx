@@ -35,6 +35,7 @@ export default function RootLayout({
     <html lang="ru">
     <head>
         <meta name="google-site-verification" content="rrGmW9BQQmMPNXsSO0x-HcMduJ9l-8yOxHaxFaRgg-Q" />
+      <link rel="canonical" href="https://ritualkez.ru/"/>
     </head>
       <body
         className={`${geistRaleway.variable} ${geistCormorant.variable} antialiased`}
