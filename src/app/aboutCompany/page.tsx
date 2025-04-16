@@ -15,11 +15,11 @@ export default function AboutCompany() {
                     <div>
                         <h1 className="text-header-ul font-cormorant text-[55px] xs:text-[26px] sm:text-[36px] md:text-[42px] font-normal">О компании</h1>
 
-                        <p className="text-header-ul font-raleway text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[35px]">Наша компания
+                        <h1 className="text-header-ul font-raleway text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[35px]">Наша компания
                             работает в посёлке Кез, а так же селе Дебессы (Республика Удмуртия) и предлагает широкий
                             спектр ритуальных услуг. Мы организуем похороны, предоставляя помощь людям в тяжелую минуту.
                             Мы понимаем, насколько это важно - и готовы вам помочь достойно провести прощание с
-                            ушедшим.</p>
+                            ушедшим.</h1>
                         <p className="text-header-ul font-raleway text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[35px]">Мы оказываем комплекс
                             услуг, которые полностью охватывают подготовку и проведение похорон.</p>
                         <p className="text-header-ul font-raleway text-[32px] lg:text-[28px] md:text-[24px] sm:text-[22px] ss:text-[20px] xs:text-[18px] font-thin mt-[35px]">Наше похоронное бюро
