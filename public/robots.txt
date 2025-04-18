@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ritualkez.ru
+
+# Sitemaps
+Sitemap: https://ritualkez.ru/sitemap.xml

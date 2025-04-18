@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function ServiceMemory() {
     return (
-        <div>
+        <header>
             <main className="min-w-screen bg-cover bg-no-repeat overflow-x-hidden flex justify-center items-center"
                  style={{backgroundImage: 'url("/Service.svg")', minHeight: "calc(100vh - 101px)"}}>
                 <div className="max-w-[1225px]">
@@ -81,6 +81,6 @@ export default function ServiceMemory() {
                 </div>
             </main>
             <DownHeader/>
-        </div>
+        </header>
     );
 }
