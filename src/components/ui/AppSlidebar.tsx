@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
+import { CornerDownRight } from "lucide-react";
 import {
     Sidebar,
     SidebarContent,
@@ -8,6 +8,7 @@ import {
     SidebarMenu,
     SidebarMenuButton,
     SidebarMenuItem,
+
 } from "@/components/ui/sidebar";
 
 export function AppSidebar({ isOpen, toggleSidebar }: { isOpen: boolean, toggleSidebar: () => void }) {
@@ -26,12 +27,12 @@ export function AppSidebar({ isOpen, toggleSidebar }: { isOpen: boolean, toggleS
                         <SidebarGroupContent>
                             <SidebarMenu>
                                 {[
-                                    { title: "О компании", url: "/aboutCompany", icon: Home },
-                                    { title: "Память", url: "/memory", icon: Inbox },
-                                    { title: "Районный ритуальный центр", url: "/center", icon: Calendar },
-                                    { title: "Контакты", url: "/contact", icon: Search },
-                                    { title: "Реквизиты", url: "/details", icon: Settings },
-                                    { title: "Отзывы", url: "/reviews", icon: Settings },
+                                    { title: "О компании", url: "/aboutCompany", icon: CornerDownRight },
+                                    { title: "Память", url: "/memory", icon: CornerDownRight },
+                                    { title: "Районный ритуальный центр", url: "/center", icon: CornerDownRight },
+                                    { title: "Контакты", url: "/contact", icon: CornerDownRight },
+                                    { title: "Реквизиты", url: "/details", icon: CornerDownRight },
+                                    { title: "Отзывы", url: "/reviews", icon: CornerDownRight },
                                 ].map((item) => (
                                     <SidebarMenuItem key={item.title}>
                                         <SidebarMenuButton asChild>
