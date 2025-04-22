@@ -32,6 +32,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="ru">
     <head>
@@ -45,7 +46,7 @@ export default function RootLayout({
 
       <SidebarProvider>
           <Router />
-          <AppSidebar />
+
           <main>
               <SidebarTrigger />
               {children}
