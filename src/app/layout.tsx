@@ -3,8 +3,9 @@ import { Raleway, Cormorant_Unicase } from "next/font/google";
 import "./globals.css";
 import Router from "@/app/router/page";
 
-import {SidebarProvider} from "@/components/ui/sidebar";
+import {SidebarProvider, SidebarTrigger} from "@/components/ui/sidebar";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import {AppSidebar} from "@/components/AppSlidebar";
 
 const geistRaleway = Raleway({
   variable: "--font-geist-sans",
@@ -41,10 +42,16 @@ export default function RootLayout({
         className={`${geistRaleway.variable} ${geistCormorant.variable} antialiased`}
       >
       <SpeedInsights/>
+
       <SidebarProvider>
           <Router />
-          <main>{children}</main>
+          <AppSidebar />
+          <main>
+              <SidebarTrigger />
+              {children}
+          </main>
       </SidebarProvider>
+
       </body>
     </html>
   );

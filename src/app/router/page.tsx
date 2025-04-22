@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { AppSidebar } from "@/components/ui/AppSlidebar";
+import { AppSidebar } from "@/components/AppSlidebar";
 import { Menu } from "lucide-react";
 
 export default function Router() {
@@ -12,7 +12,6 @@ export default function Router() {
     const isHome = pathname === "/";
 
     const toggleSidebar = () => setOpen(!open);
-
     return (
         <header className="fixed top-0 left-0 w-full z-40 shadow-md">
             <div className={`${isHome ? 'bg-fon-white' : 'bg-dark-header'} h-[70px] flex items-center lg:justify-center justify-start px-4`}>
@@ -33,7 +32,7 @@ export default function Router() {
 
                 {/* Кнопка бургера (мобильная версия) */}
                 <button
-                    className="p-2 lg:hidden fixed top-4 right-4 z-50 bg-gray-900 text-white rounded-md"
+                    className="p-2 block lg:hidden fixed top-4 right-4 z-50 bg-gray-900 text-white rounded-md"
                     onClick={toggleSidebar}
                 >
                     <Menu />
