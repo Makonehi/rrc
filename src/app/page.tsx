@@ -61,7 +61,7 @@ export default function Home() {
                                 Круглосуточный телефон
                             </p>
                             <p className="text-text-white font-raleway text-[20px] font-bold text-center">
-                                <a href="tel:+79120125085" rel="noopener noreferrer">
+                                <a href="tel:+79501570533" rel="noopener noreferrer">
                                     +7 (950) 157-05-33
                                 </a>
                             </p>
