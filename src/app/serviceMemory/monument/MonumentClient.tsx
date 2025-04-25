@@ -24,24 +24,26 @@ export default function Monument({dataMonument}: MonumentProp) {
             </Head>
             <main className="overflow-x-hidden w-full">
                 <div
-                    className="bg-cover bg-no-repeat overflow-hidden py-10"
+                    className="xs:bg-no-repeat ss:bg-repeat-y w-screen bg-[length:100%_auto] bg-top bg-no-repeat overflow-hidden py-10"
                     style={{backgroundImage: 'url("/Service.svg")', minHeight: "calc(100vh - 101px)"}}
                 >
                     <div className="max-w-[1225px] w-full mx-auto px-4 sm:px-6 md:px-8 mt-[21px]">
                         <h1 className="text-header-ul font-cormorant text-[55px] font-normal text-center">Памятники</h1>
 
                         <div
-                            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 justify-center mt-8">
+                            className="grid grid-cols-1 ss:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 justify-center mt-8">
                             {dataMonument.slice(0, visibleCount).map((item, index) => (
                                 <div key={index} className="flex flex-col items-center w-full max-w-[265px] mx-auto">
-                                    <div className="w-full h-[200px] border border-black rounded-[20px]">
+                                    <div className="w-[265px] h-[200px] flex justify-center  bg-white rounded-[20px] overflow-hidden">
                                         <Dialog>
                                             <DialogTrigger>
-                                                <Image src={item.img} alt="-" width={265} height={200}
-                                                       className="object-cover w-full h-full rounded-[20px]"/>
+                                                <Image src={item.img} alt="-"
+                                                       width={285}
+                                                       height={220}
+                                                       className="w-full h-full object-cover"/>
                                             </DialogTrigger>
                                             <DialogContent>
-                                                <Image src={item.img} alt="-" width={600} height={500}
+                                                <Image src={item.img} alt="-" width={1000} height={700}
                                                        className="object-cover w-full h-full rounded-[20px]"/>
                                             </DialogContent>
                                         </Dialog>
