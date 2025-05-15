@@ -17,7 +17,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </Head>
             <main className="home-page prew ss:flex ss:justify-center ss:items-center relative"
-                  style={{minHeight: "calc(100vh)"}}
+                  style={{minHeight: "calc(100dvh)"}}
             >
                 <div className="xs:mx-auto xs:pt-[100px]">
                     <div className="md:flex xs:grid lg:gap-24 xs:gap-10">
