@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
                     <div className="flex justify-center relative items-center">
                         <div
-                            className="md:top-[150px] ss:top-[50px] xs:top-[40px] w-[373px] h-[73px] bg-dark-header rounded-[25px] pt-[7px]">
+                            className="absolute md:top-[150px] ss:top-[50px] xs:top-[40px] w-[373px] h-[73px] bg-dark-header rounded-[25px] pt-[7px]">
                             <p className="text-text-white font-raleway text-[20px] font-bold text-center">
                                 Круглосуточный телефон
                             </p>
