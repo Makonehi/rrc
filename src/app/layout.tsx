@@ -37,6 +37,7 @@ export default function RootLayout({
     <html lang="ru">
     <head>
         <meta name="google-site-verification" content="rrGmW9BQQmMPNXsSO0x-HcMduJ9l-8yOxHaxFaRgg-Q" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="canonical" href="https://ritualkez.ru/"/>
     </head>
       <body
