@@ -38,8 +38,8 @@ export default {
             zero: 'rgb(0, 0, 0)',
         },
         screens: {
-            // xs: "375px",
-            // ss: "480px",
+            xs: "375px",
+            ss: "480px",
             sm: "640px",
             md: "768px",
             lg: "1024px",
