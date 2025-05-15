@@ -16,9 +16,7 @@ export default function Home() {
                 <meta name="google-site-verification" content="rrGmW9BQQmMPNXsSO0x-HcMduJ9l-8yOxHaxFaRgg-Q"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </Head>
-            <main className="min-h-screen home-page prew ss:flex ss:justify-center ss:items-center relative"
-
-            >
+            <main className="min-h-[100dvh] home-page prew ss:flex ss:justify-center ss:items-center relative">
                 <div className="xs:mx-auto xs:pt-[100px]">
                     <div className="md:flex xs:grid lg:gap-24 xs:gap-10">
                         <div
@@ -58,7 +56,7 @@ export default function Home() {
                     </div>
                     <div className="flex justify-center relative items-center">
                         <div
-                            className="absolute md:top-[150px] ss:top-[50px] xs:top-[40px] w-[373px] h-[73px] bg-dark-header rounded-[25px] pt-[7px]">
+                            className="md:top-[150px] ss:top-[50px] xs:top-[40px] w-[373px] h-[73px] bg-dark-header rounded-[25px] pt-[7px]">
                             <p className="text-text-white font-raleway text-[20px] font-bold text-center">
                                 Круглосуточный телефон
                             </p>
