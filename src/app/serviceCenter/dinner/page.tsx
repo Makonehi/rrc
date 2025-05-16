@@ -1,9 +1,9 @@
 'use client'
 import React from 'react';
 import Image from "next/image";
-import hallOne from "@/app/serviceMemory/hall/icon/hallOne.svg";
-import hallTwo from "@/app/serviceMemory/hall/icon/hallTwo.svg";
-import hallThree from "@/app/serviceMemory/hall/icon/hallThree.svg";
+import hallOne from "@/app/serviceCenter/hall/icon/hallOne.svg";
+import hallTwo from "@/app/serviceCenter/hall/icon/hallTwo.svg";
+import hallThree from "@/app/serviceCenter/hall/icon/hallThree.svg";
 import DownHeader from "@/app/downHeader/page";
 import Link from "next/link";
 

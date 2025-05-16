@@ -25,7 +25,7 @@ export default function ServiceCenter({dataCenter}: CenterProp) {
                             className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[55px] mt-[80px] mb-[80px] place-items-center">
                             {dataCenter.map((item, index) => (
                                 <Link key={index} href={item.link}
-                                      className={`flex justify-center ${index === dataCenter.length - 1 ? "xl:col-span-4 xl:justify-self-center xs:col-span-2 md:col-span-1 xs:justify-self-center" : ""}`}>
+                                      className="flex justify-center">
                                     <div
                                         className="lg:w-[265px] lg:h-[200px] ss:w-[215px] ss:h-[150px] xs:w-[180px] xs:h-[120px] border border-black rounded-[20px] flex justify-center items-center">
                                         <div>

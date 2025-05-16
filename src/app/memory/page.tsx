@@ -27,36 +27,31 @@ export default function Memory() {
                 className={`w-full bg-cover bg-no-repeat overflow-x-hidden`}
                 style={{backgroundImage: 'url("/fonMemory.svg")', minHeight: "calc(100vh)"}}>
                 <div className="flex justify-center w-screen h-[800px]">
-                <div
+
+                    <div
                         className="lg:flex w-full xs:grid xs:place-items-center xs:place-content-center lg:justify-center lg:items-center lg:gap-[83px] xs:gap-[35px] xs:mt-[140px]">
                         <div
-                            className="relative xs:order-2 xl:w-[530px] xl:h-[570px] lg:w-[430px] lg:h-[470px] xs:w-[330px] xs:h-[360px] bg-memory-card rounded-[20px] pl-[34px] lg:pt-[76px] xs:pt-[60px]">
-                            <div
-                                className="text-cart-title xl:text-[32px] xs:text-[29px] font-cormorant font-thin xl:pl-[25px] xl:pt-[4px] xl:pr-[29px] xs:pb-[7px] xs:pl-[20px] xs:pr-[24px] bg-memory-black absolute top-0 right-0 rounded-bl-[20px] rounded-tr-[20px]">Память
+                            className="relative xs:order-2 xl:w-[530px] xl:h-[570px] lg:w-[430px] lg:h-[470px] xs:w-[330px] xs:h-[360px] bg-memory-card rounded-[20px]">
+                            <div className="pl-[34px] lg:pt-[76px] xs:pt-[60px]">
+                                <div
+                                    className="text-cart-title xl:text-[32px] xs:text-[29px] font-cormorant font-thin xl:pl-[25px] xl:pt-[4px] xl:pr-[29px] xs:pb-[7px] xs:pl-[20px] xs:pr-[24px] bg-memory-black absolute top-0 right-0 rounded-bl-[20px] rounded-tr-[20px]">Память
+                                </div>
+                                <p className="text-text-memory font-cormorant xl:text-[30px] lg:text-[25px] xs:text-[20px]  font-normal">Изготовление
+                                    памятников в п.Кез (с.Дебесы)</p>
+                                <div className="xl:mt-[32px] xs:mt-[10px] pl-[20px]">
+                                    <Link href="/serviceMemory">
+                                        <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs::mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">ограды</p>
+                                    </Link>
+                                    <Link href="/serviceMemory">
+                                        <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs:mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">издделия
+                                            из камня</p>
+                                    </Link>
+                                    <Link href="/serviceMemory">
+                                        <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs:mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">памятники</p>
+                                    </Link>
+                                </div>
                             </div>
-                            <p className="text-text-memory font-cormorant xl:text-[30px] lg:text-[25px] xs:text-[20px]  font-normal">Изготовление
-                                памятников в п.Кез (с.Дебесы)</p>
-                            <div className="xl:mt-[32px] xs:mt-[10px] pl-[20px]">
-                                <Link href="/serviceMemory">
-                                    <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs::mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">ограды</p>
-                                </Link>
-                                <Link href="/serviceMemory">
-                                    <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs:mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">издделия
-                                        из камня</p>
-                                </Link>
-                                <Link href="/serviceMemory">
-                                    <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs:mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">памятники</p>
-                                </Link>
-                                <Link href="/serviceMemory">
-                                    <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs:mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">поминальные
-                                        обеды</p>
-                                </Link>
-                                <Link href="/serviceMemory">
-                                    <p className="relative text-text-memory font-cormorant xl:text-[24px] xs:text-[20px] xl:mb-[15px] xs:mb-[10px] font-thin hover:text-neutral-700 cursor-pointer before:content-[''] before:absolute before:w-4 before:h-4 before:bg-[url('/dot.svg')] before:bg-no-repeat before:right-full before:top-[45%]">прощальный
-                                        зал</p>
-                                </Link>
-                            </div>
-                            <div className="flex sm:order-1 justify-center xl:mt-[15px] lg:mt-[3px]">
+                            <div className="flex sm:order-1 justify-center xl:mt-[120px] lg:mt-[30px]">
                                 <Link href="/serviceMemory">
                                     <div
                                         className="relative lg:w-[160px] lg:h-[44px] xs:w-[140px] xs:h-[30px] rounded-[25px] bg-text-white hover:bg-hover-phone transition-colors duration-300 flex items-center justify-center lg:mt-[45px] xs:mt-[3px] cursor-pointer"
@@ -67,6 +62,7 @@ export default function Memory() {
                                     </div>
                                 </Link>
                             </div>
+
                         </div>
                         <div
                             className="xl:w-[530px] xl:h-[570px] lg:w-[430px] lg:h-[470px] xs:w-[330px] xs:h-[360px] relative rounded-[20px] overflow-hidden">

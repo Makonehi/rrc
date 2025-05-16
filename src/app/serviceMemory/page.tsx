@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Dinner from './icon/dinner.svg';
 import Fences from './icon/fences.svg';
-import Hall from './icon/hall.svg';
 import Monument from './icon/monument.svg';
 import Products from './icon/products.svg'
 import DownHeader from "@/app/downHeader/page";
@@ -41,18 +39,6 @@ export default function ServiceMemory() {
                                     лавочки, - каркасы, - цветники, - плитка</p>
                             </div>
                         </Link>
-                        <Link href="/serviceMemory/dinner">
-                            <div
-                                className="ss:w-[200px] md:w-[265px] ss:h-[135px] md:h-[200px] xs:w-[160px] xs:h-[100px] border border-black rounded-[20px] xs:pt-[9px] ss:pt-[17px] md:pt-[35px]">
-                                <div>
-                                    <div className="mx-auto md:w-[70px] md:h-[70px] ss:w-[50px] ss:h-[50px] xs:w-[40px] xs:h-[40px]">
-                                        <Image src={Dinner} alt="-" className="m-auto"/>
-                                    </div>
-                                    <p className="text-header-ul font-cormorant xs:text-[23px] ss:text-[28px] md:text-[32px] font-normal text-center xs:mt-[5px] ss:mt-[16px] leading-[85%]">Поминальные
-                                        обеды</p>
-                                </div>
-                            </div>
-                        </Link>
                         <Link href="/serviceMemory/monument">
                             <div
                                 className="ss:w-[200px] md:w-[265px] ss:h-[135px] md:h-[200px] xs:w-[160px] xs:h-[100px] border border-black rounded-[20px] xs:pt-[5px] ss:pt-[20px] md:pt-[35px]">
@@ -65,18 +51,6 @@ export default function ServiceMemory() {
                                     крошки</p>
                             </div>
                         </Link>
-                        <div className="xl:m-auto lg:m-0 xs:ml-[60%]">
-                            <Link href="/serviceMemory/hall">
-                                <div
-                                    className="ss:w-[200px] md:w-[265px] ss:h-[135px] md:h-[200px] xs:w-[160px] xs:h-[100px] border border-black rounded-[20px] xs:pt-[8px] ss:pt-[20px] md:pt-[35px]">
-                                    <div className="mx-auto md:w-[70px] md:h-[70px] ss:w-[50px] ss:h-[50px] xs:w-[40px] xs:h-[40px]">
-                                        <Image src={Hall} alt="-" className="m-auto"/>
-                                    </div>
-                                    <p className="text-header-ul font-cormorant xs:text-[24px] ss:text-[28px] leading-[85%] md:text-[32px] font-normal text-center xs:mt-[10px] ss:mt-[15px] md:mt-[20px]">Прощальный
-                                        зал</p>
-                                </div>
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </main>

@@ -7,6 +7,8 @@ import Clergyman from './icon/clergyman.svg';
 import Storage from './icon/storege.svg';
 import Exhumation from './icon/exhumation.svg';
 import Cleaning from './icon/cleaning.svg';
+import Hall from './icon/hall.svg';
+import Dinner from './icon/dinner.svg';
 
 export interface CenterType {
     img: string;
@@ -24,4 +26,6 @@ export const dataCenter: CenterType[] = [
     {img: Storage, name: "Хранение тела", link: "/serviceCenter/storage"},
     {img: Exhumation, name: "Эксгумация", link: "/serviceCenter/exhumation"},
     {img: Cleaning, name: "Уборка мест захоронений", link: "/serviceCenter/cleaning"},
+    {img: Hall, name:'Прощальный зал', link: '/serviceCenter/hall'},
+    {img: Dinner, name: 'Поминальные обеды', link:'/serviceCenter/dinner'},
 ]

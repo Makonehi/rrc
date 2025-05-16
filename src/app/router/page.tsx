@@ -21,12 +21,12 @@ export default function Router() {
                         <Link href="/">
                             <Image src={isHome ? '/logo.svg' : '/darkLogo.svg'} alt="-" width={63} height={66} className="cursor-pointer w-[63px] h-[66px] ml-[50px] lg:mr-[50px]" />
                         </Link>
-                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/aboutCompany">О компании</Link></li>
-                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/memory">Память</Link></li>
-                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/center">Районный ритуальный центр</Link></li>
-                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/contact">Контакты</Link></li>
-                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/details">Реквизиты</Link></li>
-                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/reviews">Отзывы</Link></li>
+                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex cursor-pointer`} href="/aboutCompany">О компании</Link></li>
+                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex cursor-pointer`} href="/memory">Память</Link></li>
+                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex cursor-pointer`} href="/center">Районный ритуальный центр</Link></li>
+                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex cursor-pointer`} href="/contact">Контакты</Link></li>
+                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex cursor-pointer`} href="/details">Реквизиты</Link></li>
+                        <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex cursor-pointer`} href="/reviews">Отзывы</Link></li>
                     </ul>
                 </nav>
 
