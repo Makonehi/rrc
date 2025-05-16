@@ -38,7 +38,7 @@ export default {
             zero: 'rgb(0, 0, 0)',
         },
         screens: {
-            xs: "371px",
+            xs: "341px",
             ss: "481px",
             sm: "640px",
             md: "768px",
