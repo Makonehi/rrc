@@ -19,7 +19,7 @@ export default function Router() {
                 <nav className="">
                     <ul className="flex items-center md:gap-[30px] lg:gap-[60px]">
                         <Link href="/">
-                            <Image src={isHome ? '/logo.svg' : '/darkLogo.svg'} alt="-" width={63} height={66} className="cursor-pointer ml-[50px] lg:mr-[50px]" />
+                            <Image src={isHome ? '/logo.svg' : '/darkLogo.svg'} alt="-" width={63} height={66} className="cursor-pointer w-[63px] h-[66px] ml-[50px] lg:mr-[50px]" />
                         </Link>
                         <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/aboutCompany">О компании</Link></li>
                         <li><Link className={`${isHome ? 'text-header-ul' : 'text-text-white'} font-light text-[15px] font-raleway hidden lg:flex`} href="/memory">Память</Link></li>

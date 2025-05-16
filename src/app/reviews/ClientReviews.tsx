@@ -12,7 +12,7 @@ interface ReviewsProp{
 export default function Reviews({data}: ReviewsProp) {
     return (
         <div className="overflow-x-hidden">
-            <div className="bg-cover bg-no-repeat overflow-hidden pt-10 flex justify-center"
+            <div className="bg-no-repeat overflow-hidden pt-10 flex justify-center"
                  style={{backgroundImage: 'url("/Service.svg")', minHeight: "calc(100vh)"}}>
                 <div className="max-w-[1225px] mx-auto grid xl:grid-cols-2 xs:grid-cols-1 gap-[87px] py-[81px] px-10">
                     {data.map((item, index) => {
