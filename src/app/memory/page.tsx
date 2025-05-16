@@ -78,7 +78,7 @@ export default function Memory() {
                     <div
                         className='lg:w-[772px] lg:h-[880px] md:w-[672px] md:h-[880px] sm:w-[572px] sm:h-[780px] xs:w-[350px] xs:h-[670px] bg-text-white rounded-[20px] xs:pl-[30px] md:pt-[30px] xs:pt-[10px]'>
                         <p className="font-cormorant lg:text-[30px] sm:text-[25px] font-normal text-dark-text">Порядок
-                            опеределения
+                            определения
                             формы
                             памятника:</p>
                         <div className="lg:pl-[45px] md:pl-[35px] xs:pl-[20px]">
