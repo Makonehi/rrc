@@ -14,7 +14,7 @@ export default function Home() {
                       content="Ритуальные услуги в поселке Кез, Удмуртская Республика. Организация похорон, изготовление памятников. Надежность, забота и уважение к памяти."/>
                 <link rel="canonical" href="https://ritualkez.ru/"/>
                 <meta name="google-site-verification" content="rrGmW9BQQmMPNXsSO0x-HcMduJ9l-8yOxHaxFaRgg-Q"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
             </Head>
             <main className="min-h-[100dvh] home-page prew ss:flex ss:justify-center ss:items-center relative">
                 <div className="xs:mx-auto xs:pt-[100px]">
